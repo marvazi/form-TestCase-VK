@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 50px;
+  background-color: #f2f2f2;
+  padding: 30px;
+  border-radius: 10px;
+  width: 500px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #555;
+}
+
+select,
+input[type='date'],
+input[type='time'],
+textarea {
+  padding: 10px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 5px;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #e5e5e5;
+}
+
+select:focus,
+input[type='date']:focus,
+input[type='time']:focus,
+textarea:focus {
+  outline: none;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+button[type='submit'],
+button[type='button'] {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  transition: all 0.2s ease-in-out;
+}
+
+button[type='submit']:hover,
+button[type='button']:hover {
+  background-color: #3e8e41;
+  transform: scale(1.05);
+}
+
+button[type='submit'] {
+  margin-right: 10px;
+}
+
+button[type='button'] {
+  background-color: #ff7043;
+}
+
+button[type='button']:hover {
+  background-color: #e64a19;
+}
+
+::-webkit-input-placeholder {
+  font-size: 16px;
+  color: #999;
+}
+
+::-moz-placeholder {
+  font-size: 16px;
+  color: #999;
+}
+
+:-ms-input-placeholder {
+  font-size: 16px;
+  color: #999;
+}
+
+:-moz-placeholder {
+  font-size: 16px;
+  color: #999;
+}
+
+textarea {
+  height: 100px;
+  resize: none;
+}
+
+select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='<http://www.w3.org/2000/svg>' viewBox='0 0 20 20'%3E%3Cpath fill='%236b7280' d='M17.3 8.3c-.4-.4-1-.4-1.4 0L10 14.6l-3.9-3.9c-.4-.4-1-.4-1.4 0-.4.4-.4 1 0 1.4l4.6 4.6c.2.2.5.3.7.3s.5-.1.7-.3l4.6-4.6c.4-.4.4-1 0-1.4z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 15px;
+  padding-right: 40px;
+}
+
+select option {
+  background-color: #fff;
+  color: #333;
+}
