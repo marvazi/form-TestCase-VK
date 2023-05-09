@@ -116,3 +116,29 @@ select option {
   background-color: #fff;
   color: #333;
 }
+@media only screen and (max-width: 600px) {
+  form {
+    width: 90%;
+    margin-top: 20px;
+    padding: 20px;
+  }
+
+  label {
+    font-size: 16px;
+  }
+
+  select,
+  input[type='date'],
+  input[type='time'],
+  textarea {
+    font-size: 16px;
+    padding: 8px;
+  }
+
+  button[type='submit'],
+  button[type='button'] {
+    padding: 8px 16px;
+    font-size: 16px;
+    margin-top: 8px;
+  }
+}
